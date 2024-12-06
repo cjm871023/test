@@ -15,7 +15,7 @@ if __name__ == "__main__":
      line=process.read_nonblocking(400).decode('utf-8').split('\n')
      process.sendline("quit")
      process.close()
-     for in in len(line)
+     for i in len(line)
       send_feishu_LP.send_chat_id_msg(line[i],'oc_67163ba6fbcc1ab3d2c2f3b426970340','ou_ff48ae361f41b8518763a0b4b2cf6928')
      print("SendRebot", line)
 
