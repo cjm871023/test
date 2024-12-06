@@ -16,6 +16,6 @@ if __name__ == "__main__":
      process.sendline("quit")
      process.close()
      print(line)
-     #send_feishu_LP.send_chat_id_msg(str,'oc_67163ba6fbcc1ab3d2c2f3b426970340','ou_ff48ae361f41b8518763a0b4b2cf6928')
+     send_feishu_LP.send_chat_id_msg(str,'oc_67163ba6fbcc1ab3d2c2f3b426970340','ou_ff48ae361f41b8518763a0b4b2cf6928')
      print("SendRebot", str)
 
