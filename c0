@@ -12,7 +12,7 @@ if __name__ == "__main__":
      process.expect('localhost>')
      process.sendline("getmarginlimit")
      time.sleep(1)
-     line=process.after.decode('utf-8')
+     line=process.read_nonblocking(400).decode('utf-8')
      process.sendline("quit")
      process.close()
      print(line)
